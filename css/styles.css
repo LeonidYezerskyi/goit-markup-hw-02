@@ -1,41 +1,118 @@
-.page{
-    background-color: #FFFFFF;
-    color: #212121;
+/* index.htm */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --hero-text-color: #FFFFFF;
+    --acent-color: #2196F3;
 }
 
-.logo-link{
-    color: #2196F3;
-}
-
-.logo-header{
-    color: #212121;
-}
-
-.list{
-    list-style: none;
-}
-
-/* site-nav */
-.link{
-    color: #212121;
-}
-
-.site-nav .link:hover, 
-.site-nav .link:focus{
-    color: #2196F3;
-}
-
-.contact-nav a{
-    color: #212121;
-}
-
-.contact-nav a:hover, 
-.contact-nav a:focus{
-    color: #2196F3;
-}
 /* колір основного тексту #212121 */
 /* вторинний колір тексту #757575 */
 /* акцент - синій #2196F3 */
 /* основний колір фону білий #FFFFFF*/
 /* рамка контейнера 1px solid #EEEEEE  */
 /* білий з прозорістю rgba(255, 255, 255, 0.6) */
+
+/* body */
+.page {
+    background-color:var(--hero-text-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo */
+.logo-link {
+    color: var(--acent-color);
+}
+
+.logo-header {
+    color: var(--title-text-color);
+}
+.logo-link .logo-header:hover,
+.logo-link .logo-header:focus {
+    color: var(--acent-color);
+}
+
+/* site-nav */
+.link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--acent-color);
+}
+
+.contact-nav a {
+    color: var(--title-text-color);
+}
+
+.contact-nav a:hover,
+.contact-nav a:focus {
+    color: var(--acent-color);
+}
+
+/* main */
+.hero-title {
+    color: var(--hero-text-color);
+}
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* benefits */
+.benefit-list .title {
+    color: var(--title-text-color);
+}
+
+/* team */
+.team .title {
+    color: var(--title-text-color);
+}
+
+/* footer */
+.logo-link {
+    color: var(--acent-color);
+}
+
+.logo-footer {
+    color: var(--hero-text-color);
+}
+
+.logo-link .logo-footer:hover,
+.logo-link .logo-footer:focus {
+    color: var(--acent-color);
+}
+
+/* adress */
+.location {
+    color: var(--hero-text-color);
+}
+
+.coordinates .title {
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+.coordinates .location:hover,
+.coordinates .location:focus {
+    color: var(--acent-color);
+}
+
+.coordinates .title:hover,
+.coordinates .title:focus {
+    color: var(--acent-color);
+}
+
+/* button */
+.hero .button {
+    color: var(--hero-text-color);
+    background-color: var(--acent-color);
+
+    font-size: ;
+    padding: ;
+    display: ;
+    border: ;
+}
