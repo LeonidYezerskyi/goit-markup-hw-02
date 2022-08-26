@@ -46,6 +46,10 @@
     color: var(--acent-color);
 }
 
+.site-nav .link.current {
+    color: var(--acent-color);
+}
+
 .contact-nav a {
     color: var(--title-text-color);
 }
@@ -59,11 +63,23 @@
 .hero-title {
     color: var(--hero-text-color);
 }
+
+/* button */
+.hero .button {
+    color: var(--hero-text-color);
+    background-color: var(--acent-color);
+
+    font-size: ;
+    padding: ;
+    display: ;
+    border: ;
+}
+
+/* benefits */
 .section-title {
     color: var(--title-text-color);
 }
 
-/* benefits */
 .benefit-list .title {
     color: var(--title-text-color);
 }
@@ -106,13 +122,4 @@
     color: var(--acent-color);
 }
 
-/* button */
-.hero .button {
-    color: var(--hero-text-color);
-    background-color: var(--acent-color);
-
-    font-size: ;
-    padding: ;
-    display: ;
-    border: ;
-}
+/* portfolio.html */
