@@ -1,0 +1,41 @@
+.page{
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+.logo-link{
+    color: #2196F3;
+}
+
+.logo-header{
+    color: #212121;
+}
+
+.list{
+    list-style: none;
+}
+
+/* site-nav */
+.link{
+    color: #212121;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: #2196F3;
+}
+
+.contact-nav a{
+    color: #212121;
+}
+
+.contact-nav a:hover, 
+.contact-nav a:focus{
+    color: #2196F3;
+}
+/* колір основного тексту #212121 */
+/* вторинний колір тексту #757575 */
+/* акцент - синій #2196F3 */
+/* основний колір фону білий #FFFFFF*/
+/* рамка контейнера 1px solid #EEEEEE  */
+/* білий з прозорістю rgba(255, 255, 255, 0.6) */
