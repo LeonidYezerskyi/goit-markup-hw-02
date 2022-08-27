@@ -18,6 +18,9 @@
 .page {
     background-color:var(--hero-text-color);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 .list {
@@ -27,19 +30,33 @@
 /* logo */
 .logo-link {
     color: var(--acent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
 
 .logo-header {
     color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
+
 .logo-link .logo-header:hover,
 .logo-link .logo-header:focus {
     color: var(--acent-color);
 }
 
 /* site-nav */
-.link {
+.site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -53,6 +70,10 @@
 
 .contact-nav a {
     color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contact-nav a:hover,
@@ -61,64 +82,118 @@
 }
 
 /* main */
+.hero {
+    background-color: #2F303A;
+}
+
 .hero-title {
     color: var(--hero-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* button */
 .hero .button {
     color: var(--hero-text-color);
     background-color: var(--acent-color);
-
-    font-size: ;
-    padding: ;
-    display: ;
-    border: ;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* benefits */
 .section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 .benefit-list .title {
     color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .benefit-list .text {
     color: var(--primary-text-color);
+    font-weight: 400;
+    line-height: 1.71;
 }
 
 /* team */
+.members {
+    background-color: var(--filter-background-color)
+}
 .team .title {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
 .team .text {
     color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19px;
+    text-align: center;
 }
 
 /* footer */
+.contacts {
+background-color: #2F303A;
+}
+
 .logo-link {
     color: var(--acent-color);
-}
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+   }
 
 .logo-footer {
     color: var(--hero-text-color);
-}
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    }
 
 .logo-link .logo-footer:hover,
 .logo-link .logo-footer:focus {
     color: var(--acent-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 /* adress */
-.location {
+.coordinates .location {
     color: var(--hero-text-color);
+    font-weight: 400;
+    line-height: 1.71;
+    text-decoration: none;
 }
 
 .coordinates .title {
-    color: rgba(255, 255, 255, 0.6);;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 1.71;
+    text-decoration: none;
 }
 
 .coordinates .location:hover,
@@ -132,11 +207,6 @@
 }
 
 /* portfolio.html */
-.page {
-    background-color: var(--hero-text-color);
-    color: var(--title-text-color);
-}
-
 /* filter */
 .filter-nav .button {
     color: var(--title-text-color);
@@ -145,7 +215,8 @@
 
 .filter-nav .button:hover,
 .filter-nav .button:focus {
-    color: var(--acent-color);
+    color: var(--hero-text-color);
+    background-color: var(--acent-color);
 }
 
 /* Examples */
