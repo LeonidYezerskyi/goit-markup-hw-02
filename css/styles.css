@@ -4,6 +4,7 @@
     --title-text-color: #212121;
     --hero-text-color: #FFFFFF;
     --acent-color: #2196F3;
+    --filter-background-color: #F5F4FA;
 }
 
 /* колір основного тексту #212121 */
@@ -84,9 +85,17 @@
     color: var(--title-text-color);
 }
 
+.benefit-list .text {
+    color: var(--primary-text-color);
+}
+
 /* team */
 .team .title {
     color: var(--title-text-color);
+}
+
+.team .text {
+    color: var(--primary-text-color);
 }
 
 /* footer */
@@ -123,3 +132,35 @@
 }
 
 /* portfolio.html */
+.page {
+    background-color: var(--hero-text-color);
+    color: var(--title-text-color);
+}
+
+/* filter */
+.filter-nav .button {
+    color: var(--title-text-color);
+    background-color: var(--filter-background-color);
+}
+
+.filter-nav .button:hover,
+.filter-nav .button:focus {
+    color: var(--acent-color);
+}
+
+/* Examples */
+.works .title {
+    color: var(--title-text-color);
+}
+
+.works .text {
+    color: var(--primary-text-color);
+}
+
+
+/* колір основного тексту #212121 */
+/* вторинний колір тексту #757575 */
+/* акцент - синій #2196F3 */
+/* основний колір фону білий #FFFFFF*/
+/* рамка контейнера 1px solid #EEEEEE  */
+/* білий з прозорістю rgba(255, 255, 255, 0.6) */
