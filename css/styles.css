@@ -18,7 +18,7 @@
 .page {
     background-color:var(--hero-text-color);
     color: var(--primary-text-color);
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif, Raleway, sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
 }
@@ -43,11 +43,6 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-}
-
-.logo-link .logo-header:hover,
-.logo-link .logo-header:focus {
-    color: var(--acent-color);
 }
 
 /* site-nav */
@@ -98,6 +93,7 @@
 
 /* button */
 .hero .button {
+    cursor: pointer;
     color: var(--hero-text-color);
     background-color: var(--acent-color);
     font-family: inherit;
@@ -128,7 +124,6 @@
 
 .benefit-list .text {
     color: var(--primary-text-color);
-    font-weight: 400;
     line-height: 1.71;
 }
 
@@ -146,7 +141,6 @@
 
 .team .text {
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19px;
     text-align: center;
@@ -154,7 +148,7 @@
 
 /* footer */
 .contacts {
-background-color: #2F303A;
+    background-color: #2F303A;
 }
 
 .logo-link {
@@ -173,25 +167,17 @@ background-color: #2F303A;
     line-height: 1.19;
     }
 
-.logo-link .logo-footer:hover,
-.logo-link .logo-footer:focus {
-    color: var(--acent-color);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-}
-
-/* adress */
+/* address */
 .coordinates .location {
     color: var(--hero-text-color);
-    font-weight: 400;
+    font-style: normal;
     line-height: 1.71;
     text-decoration: none;
 }
 
 .coordinates .title {
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
+    font-style: normal;
     line-height: 1.71;
     text-decoration: none;
 }
@@ -209,8 +195,13 @@ background-color: #2F303A;
 /* portfolio.html */
 /* filter */
 .filter-nav .button {
+    cursor: pointer;
     color: var(--title-text-color);
     background-color: var(--filter-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
 
 .filter-nav .button:hover,
@@ -220,12 +211,30 @@ background-color: #2F303A;
 }
 
 /* Examples */
+.works .link {
+    text-decoration: none;
+}
+
 .works .title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .works .text {
     color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.works .description {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 
